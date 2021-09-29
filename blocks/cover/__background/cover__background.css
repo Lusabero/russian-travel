@@ -1,0 +1,26 @@
+.cover__background {
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: url(../../../images/background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.cover__background::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover__background:hover::after {
+    opacity: 0.8;
+}

@@ -1,0 +1,9 @@
+.places__place {
+    min-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-areas: "title url" "image text";
+    gap: 40px;
+    border: olive 1px solid;
+}
