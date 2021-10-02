@@ -1,0 +1,11 @@
+.places__title {
+    grid-area: title;
+    margin: 0;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}

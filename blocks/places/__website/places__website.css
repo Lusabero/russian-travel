@@ -1,0 +1,6 @@
+.places__website {
+    grid-area: url;
+    margin: 0;
+    padding-bottom: 8px;
+    align-self: flex-end;
+}

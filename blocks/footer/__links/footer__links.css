@@ -1,1 +1,4 @@
-.footer__links {}
+.footer__links {
+    display: flex;
+    flex-direction: row;
+}
