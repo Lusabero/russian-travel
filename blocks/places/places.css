@@ -1,4 +1,21 @@
 .places {
-    min-width: 984px;
-    /* display: grid; */
+    width: 984px;
+}
+
+@media (max-width: 1279px) {
+    .places {
+        width: 928px;
+    }
+}
+
+@media (max-width: 767px) {
+    .places {
+        width: 720px;
+    }
+}
+
+@media (max-width: 424px) {
+    .places {
+        width: 320px;
+    }
 }
