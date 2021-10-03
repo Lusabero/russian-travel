@@ -1,5 +1,5 @@
 .header__lang-link {
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif;
     font-size: 24px;
     line-height: 1.17;
     text-align: right;
@@ -10,4 +10,11 @@
 
 .header__lang-link:last-child {
     margin-right: 0;
+}
+
+@media (max-width: 424px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 1.11;
+    }
 }
