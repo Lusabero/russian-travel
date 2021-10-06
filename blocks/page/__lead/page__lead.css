@@ -16,6 +16,6 @@
 
 @media (max-width: 424px) {
     .page__lead {
-        margin: 48px -2px 0 -2px;
+        margin: 48px 0 0 0;
     }
 }

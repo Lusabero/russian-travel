@@ -1,26 +1,26 @@
 .header {
     display: flex;
     flex-direction: row;
-    width: 1184px;
+    max-width: 1184px;
     height: 52px;
     justify-content: space-between;
 }
 
 @media (max-width: 1279px) {
     .header {
-        width: 928px;
+        max-width: 928px;
     }
 }
 
 @media (max-width: 767px) {
     .header {
-        width: 720px;
+        max-width: 720px;
     }
 }
 
 @media (max-width: 424px) {
     .header {
-        width: 288px;
+        max-width: 288px;
         height: 42px;
     }
 }

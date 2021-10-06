@@ -1,11 +1,18 @@
 .footer__links {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+    .footer__links {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 424px) {
     .footer__links {
-        width: 186px;
+        max-width: 186px;
         flex-direction: column;
     }
 }
