@@ -1,4 +1,4 @@
-.footer__links {
+    .footer__links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,6 +13,4 @@
 @media (max-width: 424px) {
     .footer__links {
         max-width: 186px;
-        flex-direction: column;
     }
-}
