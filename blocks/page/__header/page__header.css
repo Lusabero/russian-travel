@@ -1,15 +1,15 @@
 .page__header {
-    padding: 28px 48px 0 48px;
+    margin: 28px 48px 0 48px;
 }
 
 @media (max-width: 767px) {
     .page__header {
-        padding: 28px 24px 0 24px;
+        margin: 28px 24px 0 24px;
     }
 }
 
 @media (max-width: 424px) {
     .page__header {
-        padding: 16px 16px 0 0;
+        margin: 16px 16px 0 16px;
     }
 }

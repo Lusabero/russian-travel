@@ -3,3 +3,9 @@
     margin: 0;
     align-self: flex-end;
 }
+
+@media (max-width: 424px) {
+    .places__website {
+        margin: 0 16px;
+    }
+}
