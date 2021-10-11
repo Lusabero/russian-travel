@@ -16,7 +16,7 @@
     opacity: 0.8;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .header__lang-link {
         margin-right: 10px;
     }

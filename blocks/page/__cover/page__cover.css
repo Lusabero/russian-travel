@@ -8,7 +8,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .page__cover {
         margin: 90px 0 88px 0;
     }

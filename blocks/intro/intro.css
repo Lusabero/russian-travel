@@ -2,7 +2,7 @@
     max-width: 690px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .intro {
         max-width: 720px;
     }
