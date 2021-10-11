@@ -30,7 +30,7 @@
 @media (max-width: 424px) {
     .places__place {
         max-width: 320px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr minmax(min-content, max-content);
         grid-template-areas: "title" "url" "image" "text";
         gap: 32px;
         margin-bottom: 50px;
