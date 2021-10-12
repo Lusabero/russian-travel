@@ -6,6 +6,7 @@
     grid-template-areas: "title url" "image text";
     grid-gap: 48px 40px;
     margin-bottom: 80px;
+    padding: 0;
 }
 
 .places__place:last-child {
@@ -30,7 +31,7 @@
 @media (max-width: 424px) {
     .places__place {
         max-width: 320px;
-        grid-template-columns: 1fr minmax(min-content, max-content);
+        grid-template-columns: 1fr;
         grid-template-areas: "title" "url" "image" "text";
         gap: 32px;
         margin-bottom: 50px;

@@ -16,11 +16,12 @@
     opacity: 0.8;
 }
 
-@media (max-width: 768px) {
+
+/* @media (max-width: 768px) {
     .header__lang-link {
         margin-right: 10px;
     }
-}
+} */
 
 @media (max-width: 424px) {
     .header__lang-link {
