@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-@media (max-width: 978px) {
+@media (max-width: 1279px) {
     .lead {
         max-width: 928px;
     }
