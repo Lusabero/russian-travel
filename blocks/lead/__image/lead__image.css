@@ -3,15 +3,18 @@
     width: 100%;
     /* height: 615px; */
     object-fit: cover;
-    box-sizing: border-box;
-    margin: 64px 0 0 0;
+    /* box-sizing: border-box; */
+    /* margin: 64px 0 0 0; */
+    margin: 0;
+    padding-top: 64px;
 }
 
 @media (max-width: 1279px) {
     .lead__image {
         max-width: 928px;
         /* height: 580px; */
-        margin: 56px 0 0 0;
+        /* margin: 56px 0 0 0; */
+        padding-top: 56px;
     }
 }
 
@@ -26,6 +29,7 @@
     .lead__image {
         max-width: 320px;
         /* height: 200px; */
-        margin: 40px 0 0 0;
+        /* margin: 40px 0 0 0; */
+        padding-top: 40px;
     }
 }
