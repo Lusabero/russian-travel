@@ -18,3 +18,9 @@
         padding-bottom: 25px;
     }
 }
+
+@media (max-width: 520px) {
+    .places__paragraph {
+        margin: 0 3px;
+    }
+}

@@ -14,8 +14,8 @@
     }
 }
 
-@media (max-width: 424px) {
+@media (max-width: 520px) {
     .places {
-        max-width: 320px;
+        min-width: 320px;
     }
 }

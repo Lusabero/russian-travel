@@ -2,7 +2,7 @@
     margin: 92px 48px 0 48px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1279px) {
     .page__photo-grid {
         margin: 88px 48px 0 48px;
     }
